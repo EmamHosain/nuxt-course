@@ -1,13 +1,7 @@
-<script setup>
-// only css and js file work on this page
-// useHead({
-//     link: [{ rel: 'stylesheet', href: 'css/style.css', type: 'text/css' }],
-//     script: [{ src: 'js/script.js', body: true }],
-// })
-</script>
+
 <template>
     <div>
-        <h1>home page</h1>
+        <h1>about page</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, dicta! Placeat consequatur dignissimos cumque
             quod, sit saepe, voluptates accusantium nulla laborum aspernatur amet cupiditate eum consequuntur? Perspiciatis,
             quia saepe sit voluptates iure totam fuga expedita obcaecati tempore delectus unde. Tenetur itaque voluptatibus
