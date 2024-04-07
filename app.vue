@@ -5,6 +5,8 @@
   <div>
     <Navbar />
     <hr>
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
