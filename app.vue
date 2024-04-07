@@ -1,5 +1,10 @@
+<script setup>
+
+</script>
 <template>
   <div>
-    <NuxtWelcome />
+    <Navbar />
+    <hr>
+    <NuxtPage />
   </div>
 </template>
