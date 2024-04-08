@@ -1,8 +1,7 @@
 <script setup>
-// only css and js file work on this page
-// useHead({
-//     link: [{ rel: 'stylesheet', href: 'css/style.css', type: 'text/css' }],
-//     script: [{ src: 'js/script.js', body: true }],
+// that is called named route middleware
+// definePageMeta({
+//     middleware: 'auth'
 // })
 </script>
 <template>

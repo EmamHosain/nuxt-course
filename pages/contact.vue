@@ -1,4 +1,10 @@
+<script setup>
 
+// that is called named route middleware
+// definePageMeta({
+//     middleware: 'auth'
+// })
+</script>
 <template>
     <div>
         <h1>contact page</h1>

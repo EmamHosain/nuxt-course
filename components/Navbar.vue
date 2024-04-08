@@ -1,8 +1,4 @@
 <script setup>
-const userName = ref('emamhossain');
-const profile = ref('facebook');
-const profileId = ref('234');
-const profileName = ref('hossain');
 
 </script>
 <template>
@@ -18,19 +14,7 @@ const profileName = ref('hossain');
                 <NuxtLink to="/contact">contact</NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/blog">blog post page</NuxtLink>
-            </li>
-
-            <!-- dynamic route -->
-            <p>dynamic route</p>
-            <li>
-                <NuxtLink :to="`/user-${userName}`">user name</NuxtLink>
-            </li>
-            <li>
-                <NuxtLink :to="`/profile/profile-${profile}`">profile</NuxtLink>
-            </li>
-            <li>
-                <NuxtLink :to="`/profile/${profileId}`">profile id</NuxtLink>
+                <NuxtLink to="/login">login</NuxtLink>
             </li>
         </ul>
     </div>

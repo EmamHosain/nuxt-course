@@ -1,4 +1,20 @@
+<script setup>
+// thai is called anonymourse inline middleware 
+// definePageMeta({
+//     middleware:function(to,form){
+//         const isLoggedIn = false;
+//         if(!isLoggedIn){
+//             return navigateTo('/login')
+//         }
+//     }
+// })
 
+
+// that is called named route middleware
+// definePageMeta({
+//     middleware: 'auth'
+// })
+</script>
 <template>
     <div>
         <h1>about page</h1>
