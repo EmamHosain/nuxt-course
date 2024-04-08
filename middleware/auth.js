@@ -1,3 +1,4 @@
+// that is called name route middleware 
 export default defineNuxtRouteMiddleware((to, from) => {
     const isLoggedIn = true;
     if (!isLoggedIn && to.path !== '/login') {
